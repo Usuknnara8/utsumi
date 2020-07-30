@@ -1,7 +1,15 @@
-/* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
   .top-wrapper h1 {
     font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
   }
 }
 
@@ -33,5 +41,9 @@
 
   .top-wrapper p {
     font-size: 14px;
+  }
+  
+  .lesson {
+    width: 100%;
   }
 }
